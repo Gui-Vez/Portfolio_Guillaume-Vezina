@@ -1,3 +1,4 @@
+import '../Style/composants/Appli.scss';
 import Entete from './Entete';
 
 function Appli()
