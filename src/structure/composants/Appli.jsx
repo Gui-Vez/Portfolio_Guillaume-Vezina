@@ -1,11 +1,15 @@
 import '../../style/composants/Appli.scss';
 import Entete from './Entete';
+import Main from './Main';
+import Footer from './Footer';
 
 function Appli()
 {
     return (
         <div className="Appli">
-            <Entete />
+            <Entete/>
+            <Main/>
+            <Footer/>
         </div>
     );
 }

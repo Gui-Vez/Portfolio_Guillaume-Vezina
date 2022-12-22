@@ -1,4 +1,10 @@
+@import '../variables/couleurs.scss';
+@import '../variables/polices.scss';
+
 .Appli
 {
-    height: 100vh;
+    background-color: $couleur__background-color__primaire;
+    font-family: $typo__font-family__primaire;
+    color: $couleur__font__primaire;
+    font-weight: normal;
 }
