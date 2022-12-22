@@ -1,16 +1,14 @@
 .Navigation
 {
-    display: flex;
-    border: 1px solid orange;
     height: 100px;
+    display: flex;
 
     .aaa
     {
-        border: 1px solid green;
         width: 100%;
+        font-size: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 50px;
     }
 }

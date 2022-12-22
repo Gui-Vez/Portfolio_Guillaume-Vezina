@@ -1,4 +1,4 @@
-import '../Style/composants/Navigation.scss';
+import '../../style/composants/Navigation.scss';
 
 export default function Entete(props)
 {

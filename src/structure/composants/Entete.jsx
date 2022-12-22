@@ -1,4 +1,4 @@
-import '../Style/composants/Entete.scss';
+import '../../style/composants/Entete.scss';
 import Navigation from './Navigation';
 
 
