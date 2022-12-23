@@ -29,6 +29,7 @@
 
     .palette-couleurs
     {
+        // display: none;
         border: 1px solid black;
         width: 75%;
         height: 10%;
@@ -37,7 +38,6 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        display: none;
 
         & > div
         {
