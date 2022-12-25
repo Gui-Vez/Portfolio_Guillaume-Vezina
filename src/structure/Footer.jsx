@@ -1,4 +1,4 @@
-import '../../style/composants/Footer.scss';
+import '../style/Footer.scss';
 
 export default function Footer(props)
 {

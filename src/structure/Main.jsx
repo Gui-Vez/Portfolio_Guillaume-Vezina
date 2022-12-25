@@ -1,6 +1,6 @@
-import '../../style/composants/Main.scss';
-import Presentation from './Presentation';
-import ListeProjets from './ListeProjets';
+import '../style/Main.scss';
+import Presentation from './composants/Presentation';
+import ListeProjets from './composants/ListeProjets';
 
 export default function Main(props)
 {
