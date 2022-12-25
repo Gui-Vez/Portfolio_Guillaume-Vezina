@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.f1cf4848.css",
-    "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.21b109d6.js",
-    "static/media/Logo.svg": "/Portfolio_Guillaume-Vezina/static/media/Logo.1ea5a9bc04803ddcd1db604cb8bf5a2a.svg",
+    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.45be5a88.css",
+    "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.b96de3b2.js",
+    "static/media/LogoGV.svg": "/Portfolio_Guillaume-Vezina/static/media/LogoGV.1ea5a9bc04803ddcd1db604cb8bf5a2a.svg",
     "index.html": "/Portfolio_Guillaume-Vezina/index.html",
-    "main.f1cf4848.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.f1cf4848.css.map",
-    "main.21b109d6.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.21b109d6.js.map"
+    "main.45be5a88.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.45be5a88.css.map",
+    "main.b96de3b2.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.b96de3b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1cf4848.css",
-    "static/js/main.21b109d6.js"
+    "static/css/main.45be5a88.css",
+    "static/js/main.b96de3b2.js"
   ]
 }
