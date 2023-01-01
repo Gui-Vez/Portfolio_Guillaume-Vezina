@@ -13,7 +13,10 @@ export default function Entete(props)
                     <p>Guillaume</p>
                     <p>Vézina</p>
                 </h1>
-                <h2 className='sous-titre'>Développeur front-end</h2>
+                <h2 className='sous-titre'>
+                    <p>Développeur</p>
+                    <p>front-end</p>
+                </h2>
             </div>
             
             <div className='transition'>
