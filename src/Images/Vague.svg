@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="uuid-0112f277-9d75-44e1-818e-bcd43e0f85fa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 397"><path d="m0,76.23c960-262,960,256.45,1920-.02-.02,0,0,320.79,0,320.79H0S0,76.23,0,76.23Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-0112f277-9d75-44e1-818e-bcd43e0f85fa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 397">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%" gradientTransform="rotate(90)">
+            <stop offset="5%" stop-color="#32ded4"></stop>
+            <stop offset="95%" stop-color="#002bdc"></stop>
+        </linearGradient>
+    </defs>
+    <path d="m0,76.23c960-262,960,256.45,1920-.02-.02,0,0,320.79,0,320.79H0S0,76.23,0,76.23Z" fill="url(#gradient)" fill-opacity="1"/>
+</svg>
+
+<!-- 
+<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdc">
+            </stop>
+            <stop offset="95%" stop-color="#32ded4">
+            </stop>
+        </linearGradient>
+    </defs>
+    <path d="M 0,600 C 0,600 0,200 0,200 C 126.96650717703349,162.28708133971293 253.93301435406698,124.57416267942583 333,145 C 412.066985645933,165.42583732057417 443.23444976076553,243.99043062200957 538,271 C 632.7655502392345,298.00956937799043 791.1291866028707,273.46411483253587 908,255 C 1024.8708133971293,236.53588516746413 1100.2488038277513,224.15311004784692 1182,216 C 1263.7511961722487,207.84688995215308 1351.8755980861242,203.92344497607655 1440,200 C 1440,200 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0">
+    </path>
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#002bdc">
+            </stop>
+            <stop offset="95%" stop-color="#32ded4">
+            </stop>
+        </linearGradient>
+    </defs>
+    <path d="M 0,600 C 0,600 0,400 0,400 C 71.91387559808612,429.92344497607655 143.82775119617224,459.8468899521531 249,446 C 354.17224880382776,432.1531100478469 492.6028708133971,374.53588516746413 600,357 C 707.3971291866029,339.46411483253587 783.7607655502394,362.00956937799043 867,362 C 950.2392344497606,361.99043062200957 1040.3540669856459,339.42583732057415 1137,342 C 1233.6459330143541,344.57416267942585 1336.8229665071772,372.2870813397129 1440,400 C 1440,400 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1">
+    </path>
+</svg> -->
