@@ -10,20 +10,14 @@
     align-items: center;
     min-height: 100vh;
 
-    *
-    {
-        // border: 1px solid red;
-    }
-
     .contenu
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 5rem;
-        height: 70%;
-        flex: 2;
+        margin: 25px;
+        flex: 1;
 
         h1
         {
@@ -57,12 +51,12 @@
 
             h1 > p:last-child
             {
-                text-indent: clamp(0.5rem, 2vw, 1.5rem);
+                text-indent: $typo__indent__titre;
             }
 
             h2 > p:last-child
             {
-                text-indent: clamp(0.25rem, 1vw, 0.75rem);
+                text-indent: $typo__indent__sous-titre;
             }
         }
     }
@@ -71,8 +65,8 @@
     {
         width: 100%;
         min-height: 175px;
+        height: 200px;
         max-height: 250px;
-        flex: 1;
         bottom: 0;
         position: relative;
         display: flex;
