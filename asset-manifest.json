@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.a521c427.css",
+    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.78398352.css",
     "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.e03afed9.js",
     "static/media/LogoGV.svg": "/Portfolio_Guillaume-Vezina/static/media/LogoGV.1ea5a9bc04803ddcd1db604cb8bf5a2a.svg",
     "index.html": "/Portfolio_Guillaume-Vezina/index.html",
-    "main.a521c427.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.a521c427.css.map",
+    "main.78398352.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.78398352.css.map",
     "main.e03afed9.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.e03afed9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a521c427.css",
+    "static/css/main.78398352.css",
     "static/js/main.e03afed9.js"
   ]
 }
