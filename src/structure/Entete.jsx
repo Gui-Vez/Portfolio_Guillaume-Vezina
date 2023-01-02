@@ -1,6 +1,6 @@
 import '../style/Entete.scss';
 import Logo from './composants/Logo';
-import Vague from './composants/Vague';
+import Vagues from './composants/Vagues';
 import BoutonScroll from './composants/BoutonScroll';
 
 export default function Entete(props)
@@ -21,7 +21,7 @@ export default function Entete(props)
             
             <div className='transition'>
                 <BoutonScroll />
-                <Vague />
+                <Vagues />
             </div>
         </header>
     )

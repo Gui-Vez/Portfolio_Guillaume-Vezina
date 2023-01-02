@@ -1,0 +1,105 @@
+@import '../variables/couleurs.scss';
+
+.Vagues
+{
+    width: 100%;
+    height: 100%;
+
+    .Vague
+    {
+        width: 100%;
+        height: 200px;
+        background: url(../../Images/Vague.svg);
+        background-size: 1000px 300px;
+        position: absolute;
+        fill: $couleur__background-color__secondaire;
+    }
+
+    .Vague:nth-of-type(1)
+    {
+        animation: animationVague1 30s linear infinite;
+        z-index: 4;
+        opacity: 1;
+        animation-delay: 0s;
+        bottom: 0px;
+    }
+
+    .Vague:nth-of-type(2)
+    {
+        animation: animationVague2 15s linear infinite;
+        z-index: 3;
+        opacity: 0.5;
+        animation-delay: -5s;
+        bottom: 10px;
+    }
+
+    .Vague:nth-of-type(3)
+    {
+        animation: animationVague3 30s linear infinite;
+        z-index: 2;
+        opacity: 0.25;
+        animation-delay: -2s;
+        bottom: 20px;
+    }
+
+    .Vague:nth-of-type(4)
+    {
+        animation: animationVague4 5s linear infinite;
+        z-index: 1;
+        opacity: 0.75;
+        animation-delay: 0s;
+        bottom: 30px;
+    }
+
+    @keyframes animationVague1
+    {
+        0%
+        {
+            background-position-x: 0px;
+        }
+
+        100%
+        {
+            background-position-x: 1000px;
+        }
+    }
+
+    @keyframes animationVague2
+    {
+        0%
+        {
+            background-position-x: 0px;
+        }
+
+        100%
+        {
+            background-position-x: 1000px;
+        }
+    }
+
+    @keyframes animationVague3
+    {
+        0%
+        {
+            background-position-x: 0px;
+        }
+
+        100%
+        {
+            background-position-x: 1000px;
+        }
+    }
+
+    @keyframes animationVague4
+    {
+        0%
+        {
+            background-position-x: 0px;
+        }
+
+        100%
+        {
+            background-position-x: 1000px;
+        }
+    }
+}
