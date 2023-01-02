@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.78398352.css",
-    "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.e03afed9.js",
+    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.7f1f29bb.css",
+    "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.0c7ec05a.js",
     "static/media/LogoGV.svg": "/Portfolio_Guillaume-Vezina/static/media/LogoGV.1ea5a9bc04803ddcd1db604cb8bf5a2a.svg",
+    "static/media/Vague.svg": "/Portfolio_Guillaume-Vezina/static/media/Vague.031fbe5b77084d28733dc700fef7494b.svg",
     "index.html": "/Portfolio_Guillaume-Vezina/index.html",
-    "main.78398352.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.78398352.css.map",
-    "main.e03afed9.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.e03afed9.js.map"
+    "main.7f1f29bb.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.7f1f29bb.css.map",
+    "main.0c7ec05a.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.0c7ec05a.js.map"
   },
   "entrypoints": [
-    "static/css/main.78398352.css",
-    "static/js/main.e03afed9.js"
+    "static/css/main.7f1f29bb.css",
+    "static/js/main.0c7ec05a.js"
   ]
 }
