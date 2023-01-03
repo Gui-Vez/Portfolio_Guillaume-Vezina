@@ -1,4 +1,10 @@
 .Main
 {
     width: 100%;
+
+    .Vagues
+    {
+        height: 200px;
+        transform: rotate(180deg);
+    }
 }

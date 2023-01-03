@@ -1,9 +1,9 @@
-import '../../style/composants/Vagues.scss';
+import '../../style/composants/VaguesNoires.scss';
 
-export default function Vagues(props)
+export default function VaguesNoires(props)
 {
     return (
-        <div className='Vagues'>
+        <div className='VaguesNoires'>
             <div className='Vague'></div>
             <div className='Vague'></div>
             <div className='Vague'></div>

@@ -1,7 +1,7 @@
 @import '../variables/layout.scss';
 @import '../variables/couleurs.scss';
 
-.Vagues
+.VaguesNoires
 {
     width: 100%;
     height: 100%;
@@ -12,7 +12,7 @@
         width: 100%;
         height: 200px;
         position: absolute;
-        background-image: url(../../Images/Vague.svg);
+        background-image: url(../../Images/VagueNoire.svg);
         background-size: 500px 300px;
     }
 

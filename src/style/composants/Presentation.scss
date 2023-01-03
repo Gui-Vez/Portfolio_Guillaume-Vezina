@@ -3,6 +3,61 @@
 .Presentation
 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: $couleur__background-color__tertiaire;
+    background: linear-gradient($couleur__background-color__tertiaire,
+                                $couleur__background-color__quaternaire,
+                                $couleur__background-color__quaternaire,
+                                $couleur__background-color__tertiaire,);
+    color: $couleur__font__secondaire;
+    display: flex;
+    flex-direction: column;
+
+    .contenu
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70%;
+        // border: 3px solid red;
+
+        .titre-section
+        {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-grille
+        {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid red;
+
+            .description
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 75%;
+                text-align: center;
+            }
+        }
+    }
+
+    .bouton-scroll
+    {
+        min-height: 175px;
+        height: 200px;
+        max-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 3px solid blue;
+    }
 }
