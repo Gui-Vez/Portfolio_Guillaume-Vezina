@@ -1,4 +1,10 @@
-$layout-mobile: 480px;
-$layout-tablette: 768px;
-$layout-desktop: 992px;
-$layout-gigaScreen: 1980px; 
+// Disposition écran
+$layout-mobile     : 480px;
+$layout-tablette   : 768px;
+$layout-desktop    : 992px;
+$layout-gigaScreen : 1980px;
+
+// Taille boîtes
+$taille__width__logo          : clamp(100px, 30vw, 300px);
+$taille__width__photo-profil  : clamp(100px, 50vw, 400px);
+$taille__height__photo-profil : clamp(100px, 50vw, 400px);

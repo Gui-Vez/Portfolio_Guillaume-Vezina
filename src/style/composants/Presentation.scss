@@ -1,17 +1,29 @@
 @import '../variables/couleurs.scss';
+@import '../variables/layout.scss';
+@import '../variables/polices.scss';
 
 .Presentation
 {
     width: 100%;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $couleur__font__secondaire;
     background-color: $couleur__background-color__tertiaire;
     background: linear-gradient($couleur__background-color__tertiaire,
                                 $couleur__background-color__quaternaire,
                                 $couleur__background-color__quaternaire,
-                                $couleur__background-color__tertiaire,);
-    color: $couleur__font__secondaire;
-    display: flex;
-    flex-direction: column;
+                                $couleur__background-color__tertiaire);
+
+    @media screen and (min-width: $layout-tablette)
+    {
+        min-height: 100vh;
+    }
+
+    @media screen and (min-width: $layout-gigaScreen)
+    {
+        min-height: auto;
+    }
 
     .contenu
     {
@@ -19,24 +31,46 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 70%;
-        // border: 3px solid red;
+        align-items: center;
+        // padding: 5rem 0;
 
         .titre-section
         {
             flex: 1;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-end;
+            font-size: $typo__font-size__titre-section;
+            width: min-content;
+            border-bottom: 1px solid white;
         }
 
         &-grille
         {
             flex: 2;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             // border: 1px solid red;
+            
+            // display: grid;
+            // gap: 5px;
+
+            .image-profil
+            {
+                width: $taille__width__photo-profil;
+                height: $taille__height__photo-profil;
+                background-image: url(../../Images/Profil.jpg);
+                background-position: 54% 36.5%;
+                background-size: 200%;
+                background-repeat: no-repeat;
+                background-color: white;
+                border-radius: 100%;
+                border: 0.5vw solid white;
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
 
             .description
             {
@@ -44,8 +78,14 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                width: 75%;
                 text-align: center;
+                font-size: $typo__font-size__paragraphe;
+                margin: 25px 50px;
+
+                & > p
+                {
+                    margin: 10px 0;
+                }
             }
         }
     }
@@ -55,9 +95,11 @@
         min-height: 175px;
         height: 200px;
         max-height: 250px;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        // border: 3px solid blue;
+        border: 3px solid blue;
+        display: none;
     }
 }

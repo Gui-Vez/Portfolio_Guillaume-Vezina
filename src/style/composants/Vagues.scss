@@ -10,7 +10,7 @@
     .Vague
     {
         width: 100%;
-        height: 200px;
+        height: 100%;
         position: absolute;
         background-image: url(../../Images/Vague.svg);
         background-size: 500px 300px;
@@ -31,7 +31,7 @@
         z-index: 3;
         opacity: 0.75;
         animation-delay: -5s;
-        bottom: 25px;
+        bottom: 20px;
     }
 
     .Vague:nth-of-type(3)
@@ -40,7 +40,7 @@
         z-index: 2;
         opacity: 0.5;
         animation-delay: -2s;
-        bottom: 50px;
+        bottom: 40px;
     }
 
     .Vague:nth-of-type(4)
@@ -49,7 +49,7 @@
         z-index: 1;
         opacity: 0.25;
         animation-delay: 0s;
-        bottom: 75px;
+        bottom: 60px;
     }
 
     @keyframes animationVague1
