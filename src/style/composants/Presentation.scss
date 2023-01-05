@@ -15,16 +15,6 @@
                                 $couleur__background-color__quaternaire,
                                 $couleur__background-color__tertiaire);
 
-    @media screen and (min-width: $layout-tablette)
-    {
-        min-height: 100vh;
-    }
-
-    @media screen and (min-width: $layout-gigaScreen)
-    {
-        min-height: auto;
-    }
-
     .contenu
     {
         flex: 1;
@@ -32,7 +22,6 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        // padding: 5rem 0;
 
         .titre-section
         {
@@ -43,33 +32,37 @@
             font-size: $typo__font-size__titre-section;
             width: min-content;
             border-bottom: 1px solid white;
+            margin-top: 10px;
         }
 
         &-grille
         {
+            margin-top: 25px;
+            padding: 5px;
             flex: 2;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            // border: 1px solid red;
-            
-            // display: grid;
-            // gap: 5px;
 
-            .image-profil
+            .contenant-image-profil
             {
-                width: $taille__width__photo-profil;
-                height: $taille__height__photo-profil;
-                background-image: url(../../Images/Profil.jpg);
-                background-position: 54% 36.5%;
-                background-size: 200%;
-                background-repeat: no-repeat;
-                background-color: white;
-                border-radius: 100%;
-                border: 0.5vw solid white;
-                margin-top: 50px;
-                margin-bottom: 25px;
+                display: flex;
+                justify-content: center;
+
+                .image-profil
+                {
+                    width: $taille__width__photo-profil;
+                    height: $taille__height__photo-profil;
+                    background-image: url(../../Images/Profil.jpg);
+                    background-position: 54% 36.5%;
+                    background-size: 200%;
+                    background-repeat: no-repeat;
+                    background-color: white;
+                    border-radius: 100%;
+                    border: 0.5vw solid white;
+                    box-sizing: initial;
+                }
             }
 
             .description
@@ -88,7 +81,136 @@
                 }
             }
         }
+
+
+        @media screen and (min-width: $layout-mobile)
+        {
+            .contenu
+            {
+                .titre-section
+                {
+                    flex: 0;
+                    margin-top: 5px;
+                }
+
+                &-grille
+                {
+                    flex-direction: row;
+
+                    .contenant-image-profil
+                    {
+                        height: 100%;
+                    }
+
+                    .contenant-description
+                    {
+                        height: 100%;
+
+                        .description
+                        {
+                            margin: 0;
+                            padding: 25px;
+                            height: 100%;
+                            align-items: baseline;
+                            
+                            & > p
+                            {
+                                text-align: start;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        @media screen and (min-width: $layout-mobile) and (max-width: $layout-desktop)
+        {
+            .contenu
+            {
+                &-grille
+                {
+                    display: grid;
+
+                    .contenant-image-profil
+                    {
+                        display: grid;
+                        grid-template-columns: 60% 40%;
+
+                        .image-profil
+                        {
+                            justify-self: center;
+                            align-self: center;
+                            justify-content: center;
+                        }
+
+                        .vide
+                        {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .contenant-description
+                    {
+                        display: grid;
+                        grid-template-columns: 15% 85%;
+
+                        .vide
+                        {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: $layout-desktop)
+        {
+            .contenu
+            {                
+                &-grille
+                {
+                    margin: 0% 5%;
+                    padding: 50px;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 25px;
+
+                    .contenant-image-profil
+                    {
+                        grid-area: 1 / 1 / 2 / 2;
+                    }
+
+                    .contenant-description
+                    {
+                        grid-area: 1 / 2 / 2 / 5;
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: $layout-gigaScreen)
+        {
+            .contenu
+            {
+                &-grille
+                {
+                    display: flex;
+                    width: 75%;
+
+                    .contenant-image-profil
+                    {
+                        .image-profil
+                        {
+                            border: 0.5em solid white;
+                        }
+                    }
+                }
+            }
+        }
     }
+
 
     .bouton-scroll
     {
@@ -99,7 +221,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 3px solid blue;
         display: none;
     }
 }

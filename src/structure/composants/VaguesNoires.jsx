@@ -1,5 +1,4 @@
 import '../../style/composants/VaguesNoires.scss';
-import BoutonScrollHaut from '../composants/BoutonScrollHaut';
 
 export default function VaguesNoires(props)
 {
