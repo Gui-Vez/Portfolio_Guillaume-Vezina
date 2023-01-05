@@ -4,7 +4,9 @@ export default function Footer(props)
 {
     return (
         <footer className='Footer'>
-            cette page est en construction lol
+            <div className='contenu'>
+                <p>cette page est en construction lol</p>
+            </div>
         </footer>
     )
 }

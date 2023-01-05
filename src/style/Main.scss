@@ -7,4 +7,17 @@
         height: 200px;
         transform: rotate(180deg);
     }
+
+    .transition
+    {
+        width: 100%;
+        min-height: 175px;
+        height: 200px;
+        max-height: 250px;
+        bottom: 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

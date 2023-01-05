@@ -1,10 +1,9 @@
 import '../../style/composants/Presentation.scss';
-import BoutonScroll from './BoutonScroll';
 
 export default function Presentation(props)
 {
     return (
-        <section className='Presentation'>
+        <section id='Presentation'>
             <div className='contenu'>
                 <h2 className='titre-section'>Présentation</h2>
 
@@ -16,10 +15,6 @@ export default function Presentation(props)
                         <p>Je suis fier d'avoir gagné en 2019 le <b>premier prix</b> de modélisation 3D de la région de Vaudreuil-Soulanges.</p>
                     </div>
                 </div>
-            </div>
-
-            <div className='bouton-scroll'>
-                <BoutonScroll />
             </div>
         </section>
     )
