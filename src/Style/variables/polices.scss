@@ -2,10 +2,12 @@
 $typo__font-family__primaire: 'GlacialIndifferenceRegular', Arial , sans-serif;
 
 // Grandeur de la police
-$typo__font-size__titre         : clamp(25px, 12vw, 100px);
-$typo__font-size__sous-titre    : clamp(15px, 5vw, 35px);
-$typo__font-size__titre-section : clamp(20px, 10vw, 75px);
-$typo__font-size__paragraphe    : clamp(15px, 5vw, 35px);
+$typo__font-size__titre             : clamp(25px, 12vw, 100px);
+$typo__font-size__sous-titre        : clamp(15px, 5vw, 35px);
+$typo__font-size__titre-section     : clamp(20px, 10vw, 75px);
+$typo__font-size__paragraphe        : clamp(15px, 5vw, 35px);
+$typo__font-size__projet-titre      : clamp(20px, 13vw, 25px);
+$typo__font-size__projet-paragraphe : clamp(12.5px, 9vw, 20px);
 
 // Grandeur de l'alinéa
 $typo__indent__titre      : clamp(0.5rem, 2vw, 1.5rem);

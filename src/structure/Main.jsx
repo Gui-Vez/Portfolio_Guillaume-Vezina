@@ -9,7 +9,7 @@ import BoutonScrollHaut from './composants/BoutonScrollHaut';
 export default function Main(props)
 {
     return (
-        <main className='Main'>
+        <main id='Main'>
             <Presentation />
             <Vagues />
             <ListeProjets />

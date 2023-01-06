@@ -6,7 +6,7 @@ import BoutonScrollPresentation from './composants/BoutonScrollPresentation';
 export default function Entete(props)
 {
     return (
-        <header className="Entete">
+        <header id="Entete">
             <div className='contenu'>
                 <Logo />
                 <h1 className='titre-principal'>

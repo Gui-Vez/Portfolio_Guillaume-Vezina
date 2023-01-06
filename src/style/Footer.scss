@@ -1,13 +1,13 @@
 @import './variables/couleurs.scss';
+@import './variables/layout.scss';
 
-.Footer
+#Footer
 {
     width: 100%;
-    height: 30vh;
     background-color: $couleur__background-color__sixte;
 
     text-align: center;
-    color: white;
+    color: $couleur__background-color__blanc;
     display: flex;
     flex-direction: column;
     justify-content: center;

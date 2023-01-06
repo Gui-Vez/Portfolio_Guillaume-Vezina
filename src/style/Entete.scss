@@ -2,21 +2,17 @@
 @import './variables/layout.scss';
 @import './variables/polices.scss';
 
-.Entete
+#Entete
 {
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
-    @media screen and (min-width: $layout-desktop)
+    
+    @media screen and (min-width: $layout-desktop) and (max-width: $layout-gigaScreen)
     {
         min-height: 100vh;
-    }
-
-    @media screen and (min-width: $layout-gigaScreen)
-    {
-        min-height: auto;
     }
 
     .contenu

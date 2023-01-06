@@ -31,7 +31,7 @@
             align-items: flex-end;
             font-size: $typo__font-size__titre-section;
             width: min-content;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid $couleur__background-color__blanc;
             margin-top: 10px;
         }
 
@@ -58,9 +58,9 @@
                     background-position: 54% 36.5%;
                     background-size: 200%;
                     background-repeat: no-repeat;
-                    background-color: white;
-                    border-radius: 100%;
-                    border: 0.5vw solid white;
+                    background-color: $couleur__background-color__blanc;
+                    border: 0.5vw solid $couleur__background-color__blanc;
+                    border-radius: $taille__border-radius__photo-profil;
                     box-sizing: initial;
                 }
             }
@@ -203,7 +203,7 @@
                     {
                         .image-profil
                         {
-                            border: 0.5em solid white;
+                            border: 0.5em solid $couleur__background-color__blanc;
                         }
                     }
                 }
