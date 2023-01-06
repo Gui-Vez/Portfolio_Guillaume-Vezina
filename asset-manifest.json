@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.a1d0ccbe.css",
-    "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.758c845f.js",
+    "main.css": "/Portfolio_Guillaume-Vezina/static/css/main.007f1d48.css",
+    "main.js": "/Portfolio_Guillaume-Vezina/static/js/main.e7328451.js",
     "static/media/Profil.jpg": "/Portfolio_Guillaume-Vezina/static/media/Profil.da1b3312150f815fb1bb.jpg",
+    "static/media/Projet - Dragon.gif": "/Portfolio_Guillaume-Vezina/static/media/Projet - Dragon.f09471501e81f0edce98.gif",
     "static/media/LogoGV.svg": "/Portfolio_Guillaume-Vezina/static/media/LogoGV.38895bc8e8cb430f06ec3a505915e795.svg",
     "index.html": "/Portfolio_Guillaume-Vezina/index.html",
     "static/media/Vague.svg": "/Portfolio_Guillaume-Vezina/static/media/Vague.c306d887d52caf96ad2f.svg",
     "static/media/VagueNoire.svg": "/Portfolio_Guillaume-Vezina/static/media/VagueNoire.ce93961ecadb1da64d8c.svg",
-    "main.a1d0ccbe.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.a1d0ccbe.css.map",
-    "main.758c845f.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.758c845f.js.map"
+    "main.007f1d48.css.map": "/Portfolio_Guillaume-Vezina/static/css/main.007f1d48.css.map",
+    "main.e7328451.js.map": "/Portfolio_Guillaume-Vezina/static/js/main.e7328451.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d0ccbe.css",
-    "static/js/main.758c845f.js"
+    "static/css/main.007f1d48.css",
+    "static/js/main.e7328451.js"
   ]
 }
