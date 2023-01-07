@@ -13,7 +13,7 @@ export default function ListeProjets(props)
                 {
                     lesProjets.map(unProjet =>
                                     <Projet
-                                        id={unProjet.id}
+                                        key={unProjet.id}
                                         url={unProjet.url}
                                         titre={unProjet.titre}
                                         extension={unProjet.extension}

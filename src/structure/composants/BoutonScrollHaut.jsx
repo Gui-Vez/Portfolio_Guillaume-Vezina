@@ -1,5 +1,4 @@
 import '../../style/composants/BoutonScrollHaut.scss'
-// import React, { useState, useEffect } from 'react';
 
 export default function BoutonScrollHaut(props)
 {

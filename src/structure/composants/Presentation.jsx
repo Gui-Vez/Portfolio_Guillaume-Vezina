@@ -18,17 +18,17 @@ export default function Presentation(props)
                         <div className='vide' />
                         <div className='description'>
                             <p>
-                                <>{textes.presentation_1} </>
+                                < >{textes.presentation_1} </>
                                 <b>{textes.presentation_2}</b>
                             </p>
                             <p>
-                                <>{textes.presentation_3} </>
+                                < >{textes.presentation_3} </>
                                 <b>{textes.presentation_4} </b>
                             </p>
                             <p>
-                                <>{textes.presentation_5} </>
+                                < >{textes.presentation_5} </>
                                 <b>{textes.presentation_6} </b>
-                                <>{textes.presentation_7} </>
+                                < >{textes.presentation_7} </>
                             </p>
                         </div>
                     </div>

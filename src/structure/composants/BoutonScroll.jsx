@@ -1,5 +1,4 @@
-import '../../style/composants/BoutonScrollPresentation.scss'
-// import React, { useState, useEffect } from 'react';
+import '../../style/composants/BoutonScrollPresentation.scss';
 
 export default function BoutonScrollPresentation(props)
 {

@@ -1,11 +1,14 @@
 import '../style/Entete.scss';
-import textes from '../data/textes.json';
-import Logo from './composants/Logo';
-import Vagues from './composants/Vagues';
-import BoutonScrollPresentation from './composants/BoutonScrollPresentation';
+import textes       from '../data/textes.json';
+import Logo         from './composants/Logo.jsx';
+import Vagues       from './composants/Vagues.jsx';
+import VagueColoree from '../Images/VagueColoree.svg';
+import BoutonScroll from './composants/BoutonScroll.jsx';
 
 export default function Entete(props)
 {
+    let imageFondColoree = {backgroundImage: "url(" + VagueColoree + ")"};
+
     return (
         <header id="Entete">
             <div className='contenu'>
@@ -21,8 +24,8 @@ export default function Entete(props)
             </div>
             
             <div className='transition'>
-                <BoutonScrollPresentation />
-                <Vagues />
+                <BoutonScroll />
+                <Vagues imageFond={imageFondColoree} />
             </div>
         </header>
     )
