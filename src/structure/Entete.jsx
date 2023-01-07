@@ -1,4 +1,5 @@
 import '../style/Entete.scss';
+import textes from '../data/textes.json';
 import Logo from './composants/Logo';
 import Vagues from './composants/Vagues';
 import BoutonScrollPresentation from './composants/BoutonScrollPresentation';
@@ -10,12 +11,12 @@ export default function Entete(props)
             <div className='contenu'>
                 <Logo />
                 <h1 className='titre-principal'>
-                    <p>Guillaume</p>
-                    <p>Vézina</p>
+                    <p>{textes.prénom}</p>
+                    <p>{textes.nom}</p>
                 </h1>
                 <h2 className='sous-titre'>
-                    <p>Développeur</p>
-                    <p>front-end</p>
+                    <p>{textes.sousTitre_1}</p>
+                    <p>{textes.sousTitre_2}</p>
                 </h2>
             </div>
             

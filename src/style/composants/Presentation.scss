@@ -211,6 +211,10 @@
         }
     }
 
+    @media screen and (min-width: $layout-gigaScreen)
+    {
+        min-height: 25vh;
+    }
 
     .bouton-scroll
     {

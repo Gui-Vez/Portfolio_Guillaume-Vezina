@@ -12,4 +12,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (min-width: $layout-gigaScreen)
+    {
+        min-height: 20vh;
+    }
 }

@@ -1,11 +1,12 @@
 import '../../style/composants/Presentation.scss';
+import textes from '../../data/textes.json';
 
 export default function Presentation(props)
 {
     return (
         <section id='Presentation'>
             <div className='contenu'>
-                <h2 className='titre-section'>Présentation</h2>
+                <h2 className='titre-section'>{textes.titre_section_1}</h2>
 
                 <div className='contenu-grille'>
                     <div className='contenant-image-profil'>
@@ -16,9 +17,19 @@ export default function Presentation(props)
                     <div className='contenant-description'>
                         <div className='vide' />
                         <div className='description'>
-                            <p>Je suis un jeune étudiant <b>inspiré</b>.</p>
-                            <p>Passionné de design graphique et de programmation front-end, je suis quelqu'un qui adore <b>collaborer</b> en équipe.</p>
-                            <p>Je suis fier d'avoir gagné en 2019 le <b>premier prix</b> de modélisation 3D de la région de Vaudreuil-Soulanges.</p>
+                            <p>
+                                <>{textes.presentation_1} </>
+                                <b>{textes.presentation_2}</b>
+                            </p>
+                            <p>
+                                <>{textes.presentation_3} </>
+                                <b>{textes.presentation_4} </b>
+                            </p>
+                            <p>
+                                <>{textes.presentation_5} </>
+                                <b>{textes.presentation_6} </b>
+                                <>{textes.presentation_7} </>
+                            </p>
                         </div>
                     </div>
                 </div>
