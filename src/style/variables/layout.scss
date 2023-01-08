@@ -5,16 +5,20 @@ $layout-desktop    : 992px;
 $layout-gigaScreen : 1980px;
 
 // Taille boîtes
-$taille__width__logo          : clamp(100px, 30vw, 300px);
-$taille__width__photo-profil  : clamp(100px, 50vw, 400px);
-$taille__height__photo-profil : clamp(100px, 50vw, 400px);
-$taille__width__carte-projet  : clamp(50px, 50vw, 350px);
+$taille__width__logo             : clamp(100px, 30vw, 300px);
+$taille__width__photo-profil     : clamp(100px, 50vw, 400px);
+$taille__height__photo-profil    : clamp(100px, 50vw, 400px);
+$taille__width__carte-projet     : clamp(50px, 50vw, 350px);
+$taille__width__lien-social-img  : clamp(50px, 5vw, 100px);
+$taille__height__lien-social-img : clamp(50px, 5vw, 100px);
 
 // Taille rayon boîtes
-$taille__border-radius__bouton-scroll : 100%;
-$taille__border-radius__photo-profil  : 100%;
-$taille__border-radius__carte-projet  : 25px;
-$taille__border-radius__image-projet  : 25px 25px 0px 0px;
+$taille__border-radius__bouton-scroll  : 100%;
+$taille__border-radius__photo-profil   : 100%;
+$taille__border-radius__carte-projet   : 25px;
+$taille__border-radius__image-projet   : 25px 25px 0px 0px;
+$taille__border-radius__lien-social    : 100%;
+$taille__border-radius__lien-social-hr : 3px;
 
 // Boîte ombrée
 $taille__box-shadow__carte-projet : 5px 5px 15px -10px;

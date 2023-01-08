@@ -11,19 +11,18 @@
     /* Barre de défilement custom */
     ::-webkit-scrollbar
     {
-        width: 12px;
-        height: 12px;
+        height: 10px;
     }
     
     ::-webkit-scrollbar-thumb
     {
         background-color: $couleur__background-color__secondaire;
-        border-radius: 10px;
+        border-radius: 100px;
     }
     
     ::-webkit-scrollbar-track
     {
         background-color: $couleur__background-color__blanc;
-        border-radius: 10px;
+        border-radius: 100px;
     }
 }

@@ -1,0 +1,104 @@
+@import '../variables/couleurs.scss';
+@import '../variables/layout.scss';
+@import '../variables/polices.scss';
+
+.LienSocial
+{
+    padding: 10px;
+    border-radius: 25px;
+
+    a
+    {
+        padding: 10px;
+        border-radius: 25px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        .lien-social-image-contenant
+        {                 
+            padding: 25px;
+            border: $taille__border-radius__lien-social-hr solid $couleur__background-color__blanc;
+            border-radius: $taille__border-radius__lien-social;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img
+            {
+                width: $taille__width__lien-social-img;
+                height: $taille__height__lien-social-img;
+                object-fit: cover;
+            }
+        }
+
+        .lien-social-titre
+        {
+            transition: color 0.4s linear;
+            color: $couleur__font__tertiaire;
+            font-size: $typo__font-size__footer-lien-social-titre;
+            padding: 10px;
+            word-wrap: break-all;
+            overflow-wrap: break-word;
+            // word-break: break-all;
+
+            hr
+            {
+                padding: 0.5px;
+                background-color: $couleur__background-color__primaire;
+                border-radius: 10px;
+                transition: width 0.5s ease-in-out, opacity 0.25s ease-out;
+                width: 0%;
+                margin: 0;
+                opacity: 0;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+
+        @media screen and (min-width: calc($layout-gigaScreen / 1.1))
+        {
+            justify-content: center;
+        }
+    }    
+
+    a:not(:hover)
+    {
+        hr
+        {
+            transition: width 0.5s ease-in-out, opacity 0.75s ease-out;
+        }
+    }
+
+    a:hover
+    {
+        .lien-social-titre
+        {
+            color: $couleur__font__secondaire;
+        }
+        
+        hr
+        {
+            width: 100%;
+            opacity: 1;
+        }
+    }
+
+    @media screen and (min-width: calc($layout-mobile / 1.5))
+    {
+        flex-direction: row;
+
+        a
+        {
+            flex-direction: row;
+        }
+
+        .lien-social-image-contenant
+        {
+            margin-right: 10px;
+        }
+    }
+}

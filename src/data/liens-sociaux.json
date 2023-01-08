@@ -1,0 +1,33 @@
+[
+    {
+        "id"        : "001",
+        "url"       : "https://www.behance.net/guillaumevezina",
+        "titre"     : "Behance",
+        "grandeur"  : 1,
+        "extension" : ".png"
+    },
+
+    {
+        "id"        : "002",
+        "url"       : "https://www.linkedin.com/in/guillaumevezina/",
+        "titre"     : "LinkedIn",
+        "grandeur"  : 1,
+        "extension" : ".png"
+    },
+
+    {
+        "id"        : "003",
+        "url"       : "https://heyaitssoup.itch.io",
+        "titre"     : "Itch",
+        "grandeur"  : 1,
+        "extension" : ".png"
+    },
+
+    {
+        "id"        : "004",
+        "url"       : "https://github.com/Gui-Vez",
+        "titre"     : "Github",
+        "grandeur"  : 1.5,
+        "extension" : ".png"
+    }
+]
