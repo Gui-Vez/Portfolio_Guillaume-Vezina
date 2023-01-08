@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-68c5a147-1de1-433a-9bad-928f56916318" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
     <defs>
-        <linearGradient id="uuid-cd7b9886-e640-4496-8464-7e4dc45c61ab" x1="354.62" y1="464.96" x2="648.01" y2="758.35" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#66b2e4"/>
+        <linearGradient id="degrade1" x1="354.62" y1="464.96" x2="648.01" y2="758.35" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#66b2e4"/>
             <stop offset=".5" stop-color="#008bd2"/>
             <stop offset="1" stop-color="#312783"/>
         </linearGradient>
-        <linearGradient id="uuid-96b382e8-34a9-4979-bd64-00cc0fd27635" x1="353.77" y1="240.55" x2="648.3" y2="535.08" xlink:href="#uuid-cd7b9886-e640-4496-8464-7e4dc45c61ab"/>
-        <linearGradient id="uuid-522d5798-c243-4181-bd98-accfe7e50059" x1="175.9" y1="175.9" x2="824.1" y2="824.1" xlink:href="#uuid-cd7b9886-e640-4496-8464-7e4dc45c61ab"/>
+        <linearGradient id="degrade2" x1="353.77" y1="240.55" x2="648.3" y2="535.08" xlink:href="#degrade1"/>
+        <linearGradient id="degrade3" x1="175.9" y1="175.9" x2="824.1" y2="824.1" xlink:href="#degrade1"/>
     </defs>
-    <g id="uuid-4ebd77a2-0a48-4c20-b549-823426c47aa3">
-        <polygon id="uuid-75f83d5d-2bbd-446f-87a3-30fbeff49e8d" points="703.56 522.58 502.18 725.64 295.66 523.92 206.28 615.65 502.23 904.12 793.72 605.04 703.56 522.58" fill="url(#uuid-cd7b9886-e640-4496-8464-7e4dc45c61ab)"/>
-        <polygon id="uuid-5d12c45b-b1c8-4308-be2a-0ced131938ad" points="787.61 383.04 603.26 200.28 419.33 387.06 496.26 464.9 599.83 365.44 623.54 387.31 499.36 503.78 378.28 387.23 579.13 175.69 498.44 95.88 212.95 386.22 502.63 680.76 787.61 383.04" fill="url(#uuid-96b382e8-34a9-4979-bd64-00cc0fd27635)"/>
+    <g>
+        <polygon points="703.56 522.58 502.18 725.64 295.66 523.92 206.28 615.65 502.23 904.12 793.72 605.04 703.56 522.58" fill="url(#degrade1)"/>
+        <polygon points="787.61 383.04 603.26 200.28 419.33 387.06 496.26 464.9 599.83 365.44 623.54 387.31 499.36 503.78 378.28 387.23 579.13 175.69 498.44 95.88 212.95 386.22 502.63 680.76 787.61 383.04" fill="url(#degrade2)"/>
     </g>
-    <path id="uuid-4f27322a-53f4-4cbb-9314-5e49b8ae1bd7" d="m500,41.65c-253.14,0-458.35,205.21-458.35,458.35s205.21,458.35,458.35,458.35,458.35-205.21,458.35-458.35S753.14,41.65,500,41.65Zm0,898.01c-242.82,0-439.67-196.85-439.67-439.67S257.18,60.33,500,60.33s439.67,196.85,439.67,439.67-196.85,439.67-439.67,439.67Z" fill="url(#uuid-522d5798-c243-4181-bd98-accfe7e50059)"/>
+    <path id="chemin" d="m500,41.65c-253.14,0-458.35,205.21-458.35,458.35s205.21,458.35,458.35,458.35,458.35-205.21,458.35-458.35S753.14,41.65,500,41.65Zm0,898.01c-242.82,0-439.67-196.85-439.67-439.67S257.18,60.33,500,60.33s439.67,196.85,439.67,439.67-196.85,439.67-439.67,439.67Z" fill="url(#degrade3)"/>
 </svg>

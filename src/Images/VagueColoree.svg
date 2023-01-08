@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-0112f277-9d75-44e1-818e-bcd43e0f85fa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 397">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 397">
     <defs>
-        <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%" gradientTransform="rotate(90)">
+        <linearGradient id="degrade" x1="0%" y1="50%" x2="100%" y2="50%" gradientTransform="rotate(90)">
             <stop offset="5%" stop-color="#5271FF"></stop>
             <stop offset="95%" stop-color="#7824D9"></stop>
         </linearGradient>
     </defs>
-    <path d="m0,76.23c960-262,960,256.45,1920-.02-.02,0,0,320.79,0,320.79H0S0,76.23,0,76.23Z" fill="url(#gradient)" fill-opacity="1"/>
+    <path d="m0,76.23c960-262,960,256.45,1920-.02-.02,0,0,320.79,0,320.79H0S0,76.23,0,76.23Z" fill="url(#degrade)" fill-opacity="1"/>
 </svg>

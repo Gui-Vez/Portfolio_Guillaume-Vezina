@@ -14,7 +14,7 @@ export default function BoutonScrollHaut(props)
 
     return (
         <div className='BoutonScrollHaut' onClick={goToTop}>
-            <h3>/\</h3>
+            <h3>V</h3>
         </div>
     )
 }

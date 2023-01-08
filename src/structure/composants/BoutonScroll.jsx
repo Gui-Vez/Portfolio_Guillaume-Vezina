@@ -1,4 +1,4 @@
-import '../../style/composants/BoutonScrollPresentation.scss';
+import '../../style/composants/BoutonScroll.scss';
 
 export default function BoutonScrollPresentation(props)
 {

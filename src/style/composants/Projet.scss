@@ -38,9 +38,9 @@
             text-align: center;
             min-height: 10rem;
 
-            .titre
+            &-titre
             {
-                flex: 1;
+                flex: 7;
                 width: 100%;
                 color: $couleur__font__quaternaire;
                 font-size: $typo__font-size__projet-titre;
@@ -53,9 +53,9 @@
                 font-weight: 600;
             }
 
-            .texte
+            &-texte
             {
-                flex: 2;
+                flex: 10;
                 color: $couleur__font__tertiaire;
                 font-size: $typo__font-size__projet-paragraphe;
                 word-wrap: break-word;
