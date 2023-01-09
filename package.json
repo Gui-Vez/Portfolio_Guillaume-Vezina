@@ -1,6 +1,7 @@
 {
   "name": "portfolio-guillaume-vezina",
-  "homepage": "https://Gui-Vez.github.io/Portfolio_Guillaume-Vezina/",
+  "homepage-ancien": "https://Gui-Vez.github.io/Portfolio_Guillaume-Vezina/",
+  "homepage": "https://www.guillaumevezina.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
