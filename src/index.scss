@@ -12,11 +12,12 @@
     ::-webkit-scrollbar
     {
         height: 10px;
+        outline: 1px solid $couleur__background-color__blanc;
     }
     
     ::-webkit-scrollbar-thumb
     {
-        background-color: $couleur__background-color__secondaire;
+        background: linear-gradient(135deg, $couleur__background-color__secondaire, $couleur__background-color__tertiaire);
         border-radius: 100px;
     }
     
