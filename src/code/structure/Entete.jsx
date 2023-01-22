@@ -2,7 +2,7 @@ import '../style/Entete.scss';
 import textes       from '../data/textes.json';
 import Logo         from './composants/Logo.jsx';
 import Vagues       from './composants/Vagues.jsx';
-import VagueColoree from '../Images/VagueColoree.svg';
+import VagueColoree from '../../images/VagueColoree.svg';
 import BoutonScroll from './composants/BoutonScroll.jsx';
 
 export default function Entete(props)

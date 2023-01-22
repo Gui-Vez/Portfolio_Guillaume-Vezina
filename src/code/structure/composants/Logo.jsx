@@ -1,5 +1,5 @@
 import '../../style/composants/Logo.scss';
-import {ReactComponent as LogoGV} from '../../Images/LogoGV.svg';
+import {ReactComponent as LogoGV} from '../../../images/LogoGV.svg';
 
 export default function Logo(props)
 {

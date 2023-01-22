@@ -2,8 +2,8 @@ import '../style/Main.scss';
 import Presentation     from './composants/Presentation';
 import ListeProjets     from './composants/ListeProjets';
 import Vagues           from './composants/Vagues';
-import VagueColoree     from '../Images/VagueColoree.svg';
-import VagueNoire       from '../Images/VagueNoire.svg';
+import VagueColoree     from '../../images/VagueColoree.svg';
+import VagueNoire       from '../../images/VagueNoire.svg';
 import BoutonScrollHaut from './composants/BoutonScrollHaut';
 
 export default function Main(props)

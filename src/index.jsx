@@ -1,7 +1,7 @@
 import './index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Appli from './structure/Appli';
+import Appli from './code/structure/Appli.jsx';
 
 
 const container = document.getElementById('root');
