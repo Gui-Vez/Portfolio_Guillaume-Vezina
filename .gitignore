@@ -22,5 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Firebase
+/src/code/data/firebase/config.js
+/src/code/data/firebase/règles.txt
+
 # Autre
 /notes.txt
