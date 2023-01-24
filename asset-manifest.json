@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bc03b30.css",
-    "main.js": "/static/js/main.6b55f491.js",
+    "main.css": "/static/css/main.b96dc28d.css",
+    "main.js": "/static/js/main.27676222.js",
     "static/media/Projet - Pacman 3D.png": "/static/media/Projet - Pacman 3D.b557d6cba411f6897cb1.png",
     "static/media/Projet - Tales of Symphonia Battle.png": "/static/media/Projet - Tales of Symphonia Battle.05ea444984c7e77a0831.png",
     "static/media/Projet - Thumbs Up Club.png": "/static/media/Projet - Thumbs Up Club.bb1160219af57ec1c835.png",
@@ -17,11 +17,11 @@
     "static/media/LogoGV.svg": "/static/media/LogoGV.059723896edb20f118119366091ac59b.svg",
     "static/media/VagueColoree.svg": "/static/media/VagueColoree.d1ba82e51709bcfc7829bd93b47494fa.svg",
     "static/media/VagueNoire.svg": "/static/media/VagueNoire.6f442cfb76772fa2b50b344d2133ae20.svg",
-    "main.6bc03b30.css.map": "/static/css/main.6bc03b30.css.map",
-    "main.6b55f491.js.map": "/static/js/main.6b55f491.js.map"
+    "main.b96dc28d.css.map": "/static/css/main.b96dc28d.css.map",
+    "main.27676222.js.map": "/static/js/main.27676222.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bc03b30.css",
-    "static/js/main.6b55f491.js"
+    "static/css/main.b96dc28d.css",
+    "static/js/main.27676222.js"
   ]
 }
