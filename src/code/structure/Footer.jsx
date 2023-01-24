@@ -44,10 +44,10 @@ export default function Footer(props)
             <div className='contenu'>
                 <h2 className='titre-section'>{textes.titre_footer}</h2>
                 
-                <p className='texte-console'>
+                <div className='contenant-texte-console'>
                     {loading && <div>Chargement...</div>}
                     {error && <div>Erreur: {error.message}</div>}
-                </p>
+                </div>
 
                 <ul className='contenant-liens-sociaux'>
                 {

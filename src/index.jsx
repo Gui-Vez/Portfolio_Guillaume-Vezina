@@ -9,6 +9,10 @@ const container = document.getElementById('root');
 // Create a root.
 const root = ReactDOM.createRoot(container);
 
+
+// require('dotenv').config();
+
+
 // ReactDOM.render
 root.render(
   <React.StrictMode>
