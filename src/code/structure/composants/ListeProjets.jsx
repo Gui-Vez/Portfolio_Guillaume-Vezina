@@ -43,8 +43,10 @@ export default function ListeProjets(props)
         <section id='ListeProjets'>
             <h2 className='titre-section'>{textes.titre_section_2}</h2>
 
-            {loading && <div>Chargement...</div>}
-            {error && <div>Erreur: {error.message}</div>}
+            <p className='texte-console'>
+                {loading && <div>Chargement...</div>}
+                {error && <div>Erreur: {error.message}</div>}
+            </p>
 
             <div className='Projets'>
                 {
