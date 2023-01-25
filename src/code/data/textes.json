@@ -13,9 +13,14 @@
     "presentation_6"  : "le premier prix",
     "presentation_7"  : "de modélisation 3D de la région de Vaudreuil-Soulanges.",
     
-    "titre_section_2" : "Projets",
+    "titre_section_2"                 : "Projets",
+    "projet_titre_manquant"           : "Un projet",
+    "projet_titre_et_image_manquants" : "Sans titre",
+    "projet_description_manquante"    : "",
 
-    "titre_footer" : "Liens sociaux",
-    "copyright_1"  : "© Guillaume Vézina",
-    "copyright_2"  : "Tous droits réservés"
+    "titre_footer"                           : "Liens sociaux",
+    "liens_sociaux_titre_manquant"           : "Lien social",
+    "liens_sociaux_titre_et_image_manquants" : "Sans titre",
+    "copyright_1"                            : "© Guillaume Vézina",
+    "copyright_2"                            : "Tous droits réservés"
 }
