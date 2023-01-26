@@ -51,7 +51,7 @@ export default function Projet(props)
 
     try
     {
-        if (props.imgUrl != undefined && validator.isURL(props.imgUrl) && checkUrl(props.imgUrl) && checkPattern(props.imgUrl))
+        if (props.imgUrl !== undefined && validator.isURL(props.imgUrl) && checkUrl(props.imgUrl) && checkPattern(props.imgUrl))
         {
             imageSrc = props.imgUrl;
         }
