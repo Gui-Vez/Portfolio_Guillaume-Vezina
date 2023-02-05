@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b96dc28d.css",
-    "main.js": "/static/js/main.337ed82a.js",
+    "main.js": "/static/js/main.f59c72f1.js",
     "static/media/Pacman 3D.png": "/static/media/Pacman 3D.b557d6cba411f6897cb1.png",
     "static/media/Tales of Symphonia Battle.png": "/static/media/Tales of Symphonia Battle.05ea444984c7e77a0831.png",
     "static/media/Thumbs Up Club.png": "/static/media/Thumbs Up Club.bb1160219af57ec1c835.png",
@@ -19,10 +19,10 @@
     "static/media/VagueColoree.svg": "/static/media/VagueColoree.d1ba82e51709bcfc7829bd93b47494fa.svg",
     "static/media/VagueNoire.svg": "/static/media/VagueNoire.db986c7e06c53c6444a20ffb71277da0.svg",
     "main.b96dc28d.css.map": "/static/css/main.b96dc28d.css.map",
-    "main.337ed82a.js.map": "/static/js/main.337ed82a.js.map"
+    "main.f59c72f1.js.map": "/static/js/main.f59c72f1.js.map"
   },
   "entrypoints": [
     "static/css/main.b96dc28d.css",
-    "static/js/main.337ed82a.js"
+    "static/js/main.f59c72f1.js"
   ]
 }
