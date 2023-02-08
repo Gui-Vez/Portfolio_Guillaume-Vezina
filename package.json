@@ -9,7 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "dotenv": "^16.0.3",
-    "firebase": "^9.16.0",
+    "firebase": "^9.17.1",
     "firebase-admin": "^11.5.0",
     "firebase-tools": "^11.21.0",
     "firestore": "^1.1.6",
