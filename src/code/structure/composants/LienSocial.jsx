@@ -1,7 +1,7 @@
 import '../../style/composants/LienSocial.scss';
 import defaultImage from '../../../images/Liens sociaux/default.png';
 import textes       from '../../data/textes.json';
-import validator from 'validator';
+import validator    from 'validator';
 
 export default function LienSocial(props)
 {
