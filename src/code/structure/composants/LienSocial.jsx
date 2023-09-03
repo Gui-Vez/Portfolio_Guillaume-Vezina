@@ -1,7 +1,7 @@
 import '../../style/composants/LienSocial.scss';
 import defaultImage from '../../../images/Liens sociaux/default.png';
 import textes       from '../../data/textes.json';
-import validator from 'validator';
+import validator    from 'validator';
 
 export default function LienSocial(props)
 {
@@ -82,11 +82,11 @@ export default function LienSocial(props)
                 <div className='lien-social-image-contenant'>
                     <img className='lien-social-image'
                          src={imageSrc}
-                         alt={props.titre || textes.liens_sociaux_titre_et_image_manquants}
+                         alt={props.titre ? props.titre : (props.loading ? textes[3].liens_sociaux_titre_et_image_manquants : props.textesDynamiques[3].liens_sociaux_titre_et_image_manquants || textes[3].liens_sociaux_titre_et_image_manquants)}
                          style={grandeurImage} />
                 </div>
                 <h3 className='lien-social-titre'>
-                    {props.titre || textes.liens_sociaux_titre_manquant}
+                    {props.titre ? props.titre : (props.loading ? textes[3].liens_sociaux_titre_manquant : props.textesDynamiques[3].liens_sociaux_titre_manquant || textes[3].liens_sociaux_titre_manquant)}
                     <hr />
                 </h3>
             </a>

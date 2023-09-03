@@ -8,7 +8,7 @@ function Appli()
     return (
         <div className="Appli">
             <Entete/>
-            <Main/>
+            <Main />
             <Footer/>
         </div>
     );

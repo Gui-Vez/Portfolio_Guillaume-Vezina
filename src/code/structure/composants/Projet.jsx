@@ -80,12 +80,12 @@ export default function Projet(props)
         <div className='Projet' id={"Projet-" + props.id}>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
             <img className='image-projet'
-                 alt={"Projet - " + (props.titre || textes.projet_titre_et_image_manquants)}
+                 alt={"Projet - " + (props.titre ? props.titre : (props.loadingTextes ? textes[2].projet_titre_et_image_manquants : props.textesDynamiques[2].projet_titre_et_image_manquants || textes[2].projet_titre_et_image_manquants))}
                  src={imageSrc} 
                  style={positionImage} />
                 <div className='description-projet'>
-                    <h4 className='description-projet-titre'>{props.titre || textes.projet_titre_manquant}</h4>
-                    <p className='description-projet-texte'>{props.description || textes.projet_description_manquante}</p>
+                    <h4 className='description-projet-titre'>{props.titre ? props.titre : (props.loadingTextes ? textes[2].projet_titre_manquant : props.textesDynamiques[2].projet_titre_manquant || textes[2].projet_titre_manquant)}</h4>
+                    <p className='description-projet-texte'>{props.description ? props.description : (props.loadingTextes ? textes[2].projet_description_manquante : props.textesDynamiques[2].projet_description_manquante || textes[2].projet_description_manquante)}</p>
                 </div>
             </a>
         </div>

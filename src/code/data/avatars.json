@@ -1,0 +1,10 @@
+[
+    {
+        "id"            : "001",
+        "titre"         : "Profil",
+        "imgUrl"        : "https://guillaumevezina.blob.core.windows.net/avatars/Profil-001.jpg",
+        "extension"     : ".jpg",
+        "tailleImage"   : "200%",
+        "positionImage" : "54% 36.5%"
+    }
+]
