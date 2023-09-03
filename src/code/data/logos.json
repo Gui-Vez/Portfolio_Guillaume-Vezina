@@ -1,0 +1,8 @@
+[
+    {
+        "id"        : "001",
+        "titre"     : "Logo",
+        "imgUrl"    : "https://guillaumevezina.blob.core.windows.net/logos/Logo-001.svg",
+        "extension" : ".svg"
+    }
+]

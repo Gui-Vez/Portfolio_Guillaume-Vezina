@@ -99,7 +99,7 @@ export default function Presentation(props)
 
         chercherAvatarsDynamiques();
 
-    }, []);
+    }, [imageSrcDefaut]);
 
 
     async function checkUrl(url)
