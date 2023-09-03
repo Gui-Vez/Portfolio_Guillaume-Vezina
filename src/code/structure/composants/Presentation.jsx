@@ -13,6 +13,8 @@ export default function Presentation(props)
     const tailleImageDefaut = "200%";
     const positionImageDefaut = "50% 40%";
 
+    const [loading, setLoading] = useState(true);
+    const [textesDynamiques, setTextes] = useState({});
     const [imageSrc, setImageSrc] = useState(imageSrcDefaut);
     const [tailleImage, setTailleImage] = useState(tailleImageDefaut);
     const [positionImage, setPositionImage] = useState(positionImageDefaut);
@@ -97,7 +99,28 @@ export default function Presentation(props)
             }
         }
 
+        const chercherTextesDynamiques = async () =>
+        {
+            try
+            {
+                const textesRef = collection(db, 'textes');
+                const data = await getDocs(textesRef);
+                setTextes(data.docs.map((doc) => ({...doc.data(), id: doc.id })));
+            }
+            
+            catch (error)
+            {
+                console.log(error)
+            }
+            
+            finally
+            {
+                setLoading(false);
+            }
+        };
+
         chercherAvatarsDynamiques();
+        chercherTextesDynamiques();
 
     }, [imageSrcDefaut]);
 
@@ -140,11 +163,35 @@ export default function Presentation(props)
         return pattern.test(str);
     }
 
+    function RendreTexteGras({ texte })
+    {
+        if (texte)
+        {
+            const parts = texte.split(/\*([^*]+)\*/);
+      
+            const elements = [];
+          
+            for (let i = 0; i < parts.length; i++)
+            {
+                if (i % 2 === 0)
+                    elements.push(parts[i]);
+                
+                else
+                    elements.push(<strong key={i}>{parts[i]}</strong>);
+            }
+
+            return <>{elements}</>;
+        }
+        
+        else
+            return <></>;
+    }
+
 
     return (
         <section id='Presentation'>
             <div className='contenu'>
-                <h2 className='titre-section'>{textes.titre_section_1}</h2>
+                <h2 className='titre-section'>{loading ? textes[1].titre_section_1 : textesDynamiques[1].titre_section_1 || textes.titre_section_1}</h2>
 
                 <div className='contenu-grille'>
                     <div className='contenant-image-profil'>
@@ -158,22 +205,19 @@ export default function Presentation(props)
 
                     <div className='contenant-description'>
                         <div className='vide' />
-                        <div className='description'>
-                            <p>
-                                < >{textes.presentation_1} </>
-                                <b>{textes.presentation_2}</b>
-                            </p>
-                            <p>
-                                < >{textes.presentation_3} </>
-                                < >{textes.presentation_4} </>
-                                <b>{textes.presentation_5} </b>
-                            </p>
-                            <p>
-                                < >{textes.presentation_6} </>
-                                <b>{textes.presentation_7} </b>
-                                < >{textes.presentation_8} </>
-                            </p>
-                        </div>
+                        {
+                            loading ?
+                                <div className='description'>
+                                    <p className='loading'>Chargement...</p>
+                                </div> :
+                                <div className='description'>
+                                    <p><RendreTexteGras texte={textesDynamiques[1].presentation_1 || textes[1].presentation_1} /></p>
+                                    <p><RendreTexteGras texte={textesDynamiques[1].presentation_2 || textes[1].presentation_2} /></p>
+                                    <p><RendreTexteGras texte={textesDynamiques[1].presentation_3 || textes[1].presentation_3} /></p>
+                                    <p><RendreTexteGras texte={textesDynamiques[1].presentation_4} /></p>
+                                    <p><RendreTexteGras texte={textesDynamiques[1].presentation_5} /></p>
+                                </div>
+                        }
                     </div>
                 </div>
             </div>

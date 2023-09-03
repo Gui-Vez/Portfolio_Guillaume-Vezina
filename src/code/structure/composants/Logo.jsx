@@ -188,7 +188,7 @@ export default function Logo(props)
                 alt={altImage || altImageDefaut}
                 src={imageSrc || imageSrcDefaut}
                 extension={extension || null}
-                logoChoisi={logoChoisi || null}
+                logochoisi={logoChoisi || null}
                 style={{width: largeurImage, height: hauteurImage, borderRadius: coinsArondis}}
             />
         </div>

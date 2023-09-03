@@ -1,27 +1,30 @@
-{
-    "prénom"      : "Guillaume",
-    "nom"         : "Vézina",
-    "sousTitre_1" : "Développeur",
-    "sousTitre_2" : "front-end",
+[
+    {
+        "prénom"      : "Guillaume",
+        "nom"         : "Vézina",
+        "sousTitre_1" : "Développeur",
+        "sousTitre_2" : "Full-Stack"
+    },
 
-    "titre_section_1" : "Présentation",
-    "presentation_1"  : "Je suis un jeune adulte",
-    "presentation_2"  : "inspiré.",
-    "presentation_3"  : "Passionné de design graphique et de programmation Web,",
-    "presentation_4"  : "je suis quelqu'un qui adore",
-    "presentation_5"  : "collaborer en équipe.",
-    "presentation_6"  : "Je suis fier d'avoir gagné en 2019 ",
-    "presentation_7"  : "le premier prix",
-    "presentation_8"  : "de modélisation 3D de la région de Vaudreuil-Soulanges.",
+    {
+        "titre_section_1" : "Présentation",
+        "presentation_1"  : "Je suis un jeune adulte *inspiré*.",
+        "presentation_2"  : "Passionné de design graphique et de programmation Web, je suis quelqu'un qui adore *collaborer en équipe*.",
+        "presentation_3"  : "Je suis fier d'avoir gagné en 2019 le *premier prix* de modélisation 3D de la région de Vaudreuil-Soulanges."
+    },
+
+    {
+        "titre_section_2"                 : "Projets",
+        "projet_titre_manquant"           : "Un projet",
+        "projet_titre_et_image_manquants" : "Sans titre",
+        "projet_description_manquante"    : ""
+    },
     
-    "titre_section_2"                 : "Projets",
-    "projet_titre_manquant"           : "Un projet",
-    "projet_titre_et_image_manquants" : "Sans titre",
-    "projet_description_manquante"    : "",
-
-    "titre_footer"                           : "Liens sociaux",
-    "liens_sociaux_titre_manquant"           : "Lien social",
-    "liens_sociaux_titre_et_image_manquants" : "Sans titre",
-    "copyright_1"                            : "© Guillaume Vézina",
-    "copyright_2"                            : "Tous droits réservés"
-}
+    {
+        "titre_footer"                           : "Liens sociaux",
+        "liens_sociaux_titre_manquant"           : "Lien social",
+        "liens_sociaux_titre_et_image_manquants" : "Sans titre",
+        "copyright_1"                            : "© Guillaume Vézina",
+        "copyright_2"                            : "Tous droits réservés"
+    }
+]

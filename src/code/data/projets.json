@@ -51,5 +51,55 @@
         "extension"     : ".jpg",
         "description"   : "Jeu d'aventure en 3D fait sur Unity",
         "positionImage" : "5% center"
+    },
+
+    {
+        "id"            : "007",
+        "url"           : "https://www.behance.net/gallery/157759447/Rock-Fest-Annonce",
+        "titre"         : "Rock Fest",
+        "extension"     : ".png",
+        "description"   : "Publicité d'un festival de musique"
+    },
+
+    {
+        "id"            : "008",
+        "url"           : "https://www.behance.net/gallery/157758793/Night-in-the-Woods-Animation",
+        "titre"         : "Night in the Woods",
+        "extension"     : ".png",
+        "description"   : "Bande annonce d'un jeu"
+    },
+
+    {
+        "id"            : "009",
+        "url"           : "https://heyaitssoup.itch.io/jamanja",
+        "titre"         : "Jamanja",
+        "extension"     : ".png",
+        "description"   : "Jeu d'évasion en réalité virtuelle"
+    },
+
+    {
+        "id"            : "010",
+        "url"           : "https://www.behance.net/gallery/88466877/Valhalla",
+        "titre"         : "Valhalla",
+        "extension"     : ".png",
+        "description"   : "Village nordique en 3D",
+        "positionImage" : "right center"
+    },
+
+    {
+        "id"            : "011",
+        "url"           : "https://www.behance.net/gallery/113458839/LoZ-Ocarina-of-Time-Minecraft",
+        "titre"         : "Ocarina of Craft",
+        "extension"     : ".jpg",
+        "description"   : "Recréation du jeu sur Minecraft"
+    },
+
+    {
+        "id"            : "012",
+        "url"           : "https://heyaitssoup.itch.io/dragon-3d",
+        "titre"         : "Dragon 3D",
+        "extension"     : ".png",
+        "description"   : "Remake de mon premier jeu en 3D",
+        "positionImage" : "25% center"
     }
 ]
