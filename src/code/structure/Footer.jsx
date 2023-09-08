@@ -12,7 +12,7 @@ export default function Footer(props)
     const [liensSociauxDynamiques, setLiensSociaux] = useState(liensSociauxStatiques);
     const [textesDynamiques, setTextes] = useState({});
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    // const [error, setError] = useState(null);
 
     useEffect(() =>
     {
@@ -30,7 +30,7 @@ export default function Footer(props)
             
             catch (error)
             {
-                setError(error);
+                // setError(error);
             }
             
             finally

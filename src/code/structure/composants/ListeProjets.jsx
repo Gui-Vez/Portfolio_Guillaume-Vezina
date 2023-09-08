@@ -9,9 +9,9 @@ import { collection, getDocs, query, orderBy } from 'firebase/firestore';
 export default function ListeProjets(props)
 {
     const [projetsDynamiques, setProjets] = useState(projetsStatiques);
-    const [loadingProjets, setLoadingProjets] = useState(true);
+    // const [loadingProjets, setLoadingProjets] = useState(true);
     const [loadingTextes, setLoadingTextes] = useState(true);
-    const [error, setError] = useState(null);
+    // const [error, setError] = useState(null);
     const [textesDynamiques, setTextes] = useState({});
 
     useEffect(() =>
@@ -28,12 +28,12 @@ export default function ListeProjets(props)
             
             catch (error)
             {
-                setError(error);
+                // setError(error);
             }
             
             finally
             {
-                setLoadingProjets(false);
+                // setLoadingProjets(false);
             }
         }
 
