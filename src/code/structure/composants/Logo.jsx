@@ -128,7 +128,7 @@ export default function Logo(props)
 
         chercherLogosDynamiques();
 
-    }, [imageSrcDefaut, logoChoisi]);
+    }, []);
 
 
     async function checkUrl(url)

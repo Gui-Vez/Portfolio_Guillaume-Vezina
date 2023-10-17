@@ -8,7 +8,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "dotenv": "^16.0.3",
     "firebase": "^9.17.1",
     "firebase-admin": "^11.5.0",
     "firebase-tools": "^11.23.1",
@@ -56,6 +55,8 @@
     "lodash": "^4.17.21",
     "node-sass": "^8.0.0",
     "react-scripts": "^5.0.1",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
