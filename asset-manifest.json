@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92007162.css",
+    "main.js": "/static/js/main.cdd12fff.js",
+    "static/media/Valhalla.png": "/static/media/Valhalla.264f761b1ac4ad7d4aac.png",
+    "static/media/Jamanja.png": "/static/media/Jamanja.98609be2c11f539ce676.png",
+    "static/media/Pacman 3D.png": "/static/media/Pacman 3D.b557d6cba411f6897cb1.png",
+    "static/media/Rock Fest.png": "/static/media/Rock Fest.c761beaabb427c0fb893.png",
+    "static/media/Tales of Symphonia Battle.png": "/static/media/Tales of Symphonia Battle.05ea444984c7e77a0831.png",
+    "static/media/Night in the Woods.png": "/static/media/Night in the Woods.af21a710878e6f05365b.png",
+    "static/media/Thumbs Up Club.png": "/static/media/Thumbs Up Club.bb1160219af57ec1c835.png",
+    "static/media/Chez Patrice.png": "/static/media/Chez Patrice.efe4318100e1e6099735.png",
+    "static/media/Foxycal.jpg": "/static/media/Foxycal.a2330cf4fa3470642cf6.jpg",
+    "static/media/default.png": "/static/media/default.32dc827140f9ca2ed775.png",
+    "static/media/Dragon 3D.png": "/static/media/Dragon 3D.4e5d0768d9e40852ca8f.png",
+    "static/media/Ocarina of Craft.jpg": "/static/media/Ocarina of Craft.b57b2a511031432d4445.jpg",
+    "static/media/Dragon.gif": "/static/media/Dragon.f09471501e81f0edce98.gif",
+    "static/media/GitHub.png": "/static/media/GitHub.e06a357a770a001ad049.png",
+    "static/media/LinkedIn.png": "/static/media/LinkedIn.ac689c2459a4b86a8566.png",
+    "static/media/Itch.png": "/static/media/Itch.cfce231b6e74d0c85619.png",
+    "static/media/Behance.png": "/static/media/Behance.716985eda03c16fee754.png",
+    "index.html": "/index.html",
+    "static/media/default.svg": "/static/media/default.059723896edb20f118119366091ac59b.svg",
+    "static/media/VagueColoree.svg": "/static/media/VagueColoree.d1ba82e51709bcfc7829bd93b47494fa.svg",
+    "static/media/VagueNoire.svg": "/static/media/VagueNoire.db986c7e06c53c6444a20ffb71277da0.svg",
+    "main.92007162.css.map": "/static/css/main.92007162.css.map",
+    "main.cdd12fff.js.map": "/static/js/main.cdd12fff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92007162.css",
+    "static/js/main.cdd12fff.js"
+  ]
+}
