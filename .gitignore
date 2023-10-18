@@ -25,6 +25,8 @@ yarn-error.log*
 
 # Firebase
 /src/code/data/firebase/config.js
+/src/code/data/firebase/clientConfig.js
+/src/code/data/firebase/serverConfig.js
 /src/code/data/firebase/admin.json
 /src/code/data/firebase/données.txt
 /src/code/data/firebase/règles.txt

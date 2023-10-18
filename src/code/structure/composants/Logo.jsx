@@ -55,23 +55,17 @@ export default function Logo(props)
 
                 if (logoChoisi)
                 {
+                    setImageSrc(logoChoisi.imgUrl || imageSrcDefaut);
+                    setAltImage(logoChoisi.titre || altImageDefaut);
+                    setLargeurImage(logoChoisi.largeurImage || largeurImageDefaut);
+                    setHauteurImage(logoChoisi.hauteurImage || hauteurImageDefaut);
+                    setCoinsArondis(logoChoisi.coinsArondis || coinsArondisDefaut);
+                    
                     if (logoChoisi.extension === ".svg")
-                    {
                         setLogoChoisi(logoChoisi);
-                        setLargeurImage(logoChoisi.largeurImage || largeurImageDefaut);
-                        setHauteurImage(logoChoisi.hauteurImage || hauteurImageDefaut);
-                        setCoinsArondis(logoChoisi.coinsArondis || coinsArondisDefaut);
-                    }
 
                     else
-                    {
-                        setImageSrc(logoChoisi.imgUrl || imageSrcDefaut);
-                        setAltImage(logoChoisi.altImage || altImageDefaut);
                         setExtension(logoChoisi.extension || extensionDefaut);
-                        setLargeurImage(logoChoisi.largeurImage || largeurImageDefaut);
-                        setHauteurImage(logoChoisi.hauteurImage || hauteurImageDefaut);
-                        setCoinsArondis(logoChoisi.coinsArondis || coinsArondisDefaut);
-                    }
                 }
 
                 else
@@ -107,23 +101,17 @@ export default function Logo(props)
 
                 if (logoChoisi)
                 {
+                    setImageSrc(logoChoisi.imgUrl || imageSrcDefaut);
+                    setAltImage(logoChoisi.titre || altImageDefaut);
+                    setLargeurImage(logoChoisi.largeurImage || largeurImageDefaut);
+                    setHauteurImage(logoChoisi.hauteurImage || hauteurImageDefaut);
+                    setCoinsArondis(logoChoisi.coinsArondis || coinsArondisDefaut);
+                    
                     if (logoChoisi.extension === ".svg")
-                    {
                         setLogoChoisi(logoChoisi);
-                        setLargeurImage(logoChoisi.largeurImage || largeurImageDefaut);
-                        setHauteurImage(logoChoisi.hauteurImage || hauteurImageDefaut);
-                        setCoinsArondis(logoChoisi.coinsArondis || coinsArondisDefaut);
-                    }
 
                     else
-                    {
-                        setImageSrc(logoChoisi.imgUrl || imageSrcDefaut);
-                        setAltImage(logoChoisi.altImage || altImageDefaut);
                         setExtension(logoChoisi.extension || extensionDefaut);
-                        setLargeurImage(logoChoisi.largeurImage || largeurImageDefaut);
-                        setHauteurImage(logoChoisi.hauteurImage || hauteurImageDefaut);
-                        setCoinsArondis(logoChoisi.coinsArondis || coinsArondisDefaut);
-                    }
                 }
 
                 else
@@ -140,7 +128,7 @@ export default function Logo(props)
 
         chercherLogosDynamiques();
 
-    }, [imageSrcDefaut]);
+    }, []);
 
 
     async function checkUrl(url)
@@ -188,7 +176,6 @@ export default function Logo(props)
                 alt={altImage || altImageDefaut}
                 src={imageSrc || imageSrcDefaut}
                 extension={extension || null}
-                logochoisi={logoChoisi || null}
                 style={{width: largeurImage, height: hauteurImage, borderRadius: coinsArondis}}
             />
         </div>
