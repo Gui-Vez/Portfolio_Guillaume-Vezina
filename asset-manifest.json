@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.92007162.css",
-    "main.js": "/static/js/main.cdd12fff.js",
+    "main.js": "/static/js/main.665afbc4.js",
     "static/media/Valhalla.png": "/static/media/Valhalla.264f761b1ac4ad7d4aac.png",
     "static/media/Jamanja.png": "/static/media/Jamanja.98609be2c11f539ce676.png",
     "static/media/Pacman 3D.png": "/static/media/Pacman 3D.b557d6cba411f6897cb1.png",
@@ -24,10 +24,10 @@
     "static/media/VagueColoree.svg": "/static/media/VagueColoree.d1ba82e51709bcfc7829bd93b47494fa.svg",
     "static/media/VagueNoire.svg": "/static/media/VagueNoire.db986c7e06c53c6444a20ffb71277da0.svg",
     "main.92007162.css.map": "/static/css/main.92007162.css.map",
-    "main.cdd12fff.js.map": "/static/js/main.cdd12fff.js.map"
+    "main.665afbc4.js.map": "/static/js/main.665afbc4.js.map"
   },
   "entrypoints": [
     "static/css/main.92007162.css",
-    "static/js/main.cdd12fff.js"
+    "static/js/main.665afbc4.js"
   ]
 }
