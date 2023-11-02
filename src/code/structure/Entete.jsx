@@ -50,8 +50,8 @@ export default function Entete(props)
           <p>{loading ? textes[0].nom : (textesDynamiques[0].nom || textes[0].nom)}</p>
         </h1>
         <h2 className='sous-titre'>
-          <p>{loading ? textes[0].sousTitre_1 : (textesDynamiques[0].sousTitre_1 || textes[0].sousTitre_1 ? textes[0].sousTitre_1 : '')}</p>
-          <p>{loading ? textes[0].sousTitre_2 : (textesDynamiques[0].sousTitre_2 || textes[0].sousTitre_2 ? textes[0].sousTitre_2 : '')}</p>
+          <p>{loading ? textes[0].sousTitre_1 : (textesDynamiques[0].sousTitre_1 || textes[0].sousTitre_1)}</p>
+          <p>{loading ? textes[0].sousTitre_2 : (textesDynamiques[0].sousTitre_2 || textes[0].sousTitre_2)}</p>
         </h2>
       </div>
 
